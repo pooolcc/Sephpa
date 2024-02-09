@@ -25,10 +25,12 @@
   "support": {
     "issues": "https://github.com/AbcAeffchen/Sephpa/issues"
   },
-  {
-    "type": "vcs",
-    "url": "https://github.com/pooolcc/sepautilities"
-  },  
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/pooolcc/sepautilities"
+    }
+  ],
   "require": {
     "php": ">=7.1",
     "ext-xml": "*",
